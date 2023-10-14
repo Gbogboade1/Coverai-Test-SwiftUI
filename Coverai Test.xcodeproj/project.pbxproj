@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D11E0762ADA2280002AF3C3 /* Coverai_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0752ADA2280002AF3C3 /* Coverai_TestApp.swift */; };
+		0D11E0782ADA2280002AF3C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0772ADA2280002AF3C3 /* ContentView.swift */; };
+		0D11E07A2ADA2280002AF3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D11E0792ADA2280002AF3C3 /* Assets.xcassets */; };
+		0D11E07E2ADA2280002AF3C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D11E07D2ADA2280002AF3C3 /* Preview Assets.xcassets */; };
+		0D11E0882ADA2281002AF3C3 /* Coverai_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0872ADA2281002AF3C3 /* Coverai_TestTests.swift */; };
+		0D11E0922ADA2281002AF3C3 /* Coverai_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0912ADA2281002AF3C3 /* Coverai_TestUITests.swift */; };
+		0D11E0942ADA2281002AF3C3 /* Coverai_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0932ADA2281002AF3C3 /* Coverai_TestUITestsLaunchTests.swift */; };
+		0D11E0A12ADA2454002AF3C3 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11E0A02ADA2454002AF3C3 /* StepsView.swift */; };
+		0DF22D862ADAB0D1002E924F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF22D852ADAB0D1002E924F /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D11E0842ADA2281002AF3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D11E06A2ADA2280002AF3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D11E0712ADA2280002AF3C3;
+			remoteInfo = "Coverai Test";
+		};
+		0D11E08E2ADA2281002AF3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D11E06A2ADA2280002AF3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D11E0712ADA2280002AF3C3;
+			remoteInfo = "Coverai Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D11E0722ADA2280002AF3C3 /* Coverai Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coverai Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D11E0752ADA2280002AF3C3 /* Coverai_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverai_TestApp.swift; sourceTree = "<group>"; };
+		0D11E0772ADA2280002AF3C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D11E0792ADA2280002AF3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D11E07B2ADA2280002AF3C3 /* Coverai_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coverai_Test.entitlements; sourceTree = "<group>"; };
+		0D11E07D2ADA2280002AF3C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D11E0832ADA2281002AF3C3 /* Coverai TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coverai TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D11E0872ADA2281002AF3C3 /* Coverai_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverai_TestTests.swift; sourceTree = "<group>"; };
+		0D11E08D2ADA2281002AF3C3 /* Coverai TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coverai TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D11E0912ADA2281002AF3C3 /* Coverai_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverai_TestUITests.swift; sourceTree = "<group>"; };
+		0D11E0932ADA2281002AF3C3 /* Coverai_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverai_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D11E0A02ADA2454002AF3C3 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		0DF22D852ADAB0D1002E924F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D11E06F2ADA2280002AF3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E0802ADA2281002AF3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E08A2ADA2281002AF3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D11E0692ADA2280002AF3C3 = {
+			isa = PBXGroup;
+			children = (
+				0D11E0742ADA2280002AF3C3 /* Coverai Test */,
+				0D11E0862ADA2281002AF3C3 /* Coverai TestTests */,
+				0D11E0902ADA2281002AF3C3 /* Coverai TestUITests */,
+				0D11E0732ADA2280002AF3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D11E0732ADA2280002AF3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D11E0722ADA2280002AF3C3 /* Coverai Test.app */,
+				0D11E0832ADA2281002AF3C3 /* Coverai TestTests.xctest */,
+				0D11E08D2ADA2281002AF3C3 /* Coverai TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D11E0742ADA2280002AF3C3 /* Coverai Test */ = {
+			isa = PBXGroup;
+			children = (
+				0D11E0752ADA2280002AF3C3 /* Coverai_TestApp.swift */,
+				0D11E0772ADA2280002AF3C3 /* ContentView.swift */,
+				0D11E0792ADA2280002AF3C3 /* Assets.xcassets */,
+				0D11E07B2ADA2280002AF3C3 /* Coverai_Test.entitlements */,
+				0D11E07C2ADA2280002AF3C3 /* Preview Content */,
+				0D11E0A02ADA2454002AF3C3 /* StepsView.swift */,
+				0DF22D852ADAB0D1002E924F /* Data.swift */,
+			);
+			path = "Coverai Test";
+			sourceTree = "<group>";
+		};
+		0D11E07C2ADA2280002AF3C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D11E07D2ADA2280002AF3C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D11E0862ADA2281002AF3C3 /* Coverai TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D11E0872ADA2281002AF3C3 /* Coverai_TestTests.swift */,
+			);
+			path = "Coverai TestTests";
+			sourceTree = "<group>";
+		};
+		0D11E0902ADA2281002AF3C3 /* Coverai TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D11E0912ADA2281002AF3C3 /* Coverai_TestUITests.swift */,
+				0D11E0932ADA2281002AF3C3 /* Coverai_TestUITestsLaunchTests.swift */,
+			);
+			path = "Coverai TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D11E0712ADA2280002AF3C3 /* Coverai Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D11E0972ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai Test" */;
+			buildPhases = (
+				0D11E06E2ADA2280002AF3C3 /* Sources */,
+				0D11E06F2ADA2280002AF3C3 /* Frameworks */,
+				0D11E0702ADA2280002AF3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coverai Test";
+			productName = "Coverai Test";
+			productReference = 0D11E0722ADA2280002AF3C3 /* Coverai Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D11E0822ADA2281002AF3C3 /* Coverai TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D11E09A2ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai TestTests" */;
+			buildPhases = (
+				0D11E07F2ADA2281002AF3C3 /* Sources */,
+				0D11E0802ADA2281002AF3C3 /* Frameworks */,
+				0D11E0812ADA2281002AF3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D11E0852ADA2281002AF3C3 /* PBXTargetDependency */,
+			);
+			name = "Coverai TestTests";
+			productName = "Coverai TestTests";
+			productReference = 0D11E0832ADA2281002AF3C3 /* Coverai TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D11E08C2ADA2281002AF3C3 /* Coverai TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D11E09D2ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai TestUITests" */;
+			buildPhases = (
+				0D11E0892ADA2281002AF3C3 /* Sources */,
+				0D11E08A2ADA2281002AF3C3 /* Frameworks */,
+				0D11E08B2ADA2281002AF3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D11E08F2ADA2281002AF3C3 /* PBXTargetDependency */,
+			);
+			name = "Coverai TestUITests";
+			productName = "Coverai TestUITests";
+			productReference = 0D11E08D2ADA2281002AF3C3 /* Coverai TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D11E06A2ADA2280002AF3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0D11E0712ADA2280002AF3C3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0D11E0822ADA2281002AF3C3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0D11E0712ADA2280002AF3C3;
+					};
+					0D11E08C2ADA2281002AF3C3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0D11E0712ADA2280002AF3C3;
+					};
+				};
+			};
+			buildConfigurationList = 0D11E06D2ADA2280002AF3C3 /* Build configuration list for PBXProject "Coverai Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D11E0692ADA2280002AF3C3;
+			productRefGroup = 0D11E0732ADA2280002AF3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D11E0712ADA2280002AF3C3 /* Coverai Test */,
+				0D11E0822ADA2281002AF3C3 /* Coverai TestTests */,
+				0D11E08C2ADA2281002AF3C3 /* Coverai TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D11E0702ADA2280002AF3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11E07E2ADA2280002AF3C3 /* Preview Assets.xcassets in Resources */,
+				0D11E07A2ADA2280002AF3C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E0812ADA2281002AF3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E08B2ADA2281002AF3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D11E06E2ADA2280002AF3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11E0782ADA2280002AF3C3 /* ContentView.swift in Sources */,
+				0D11E0762ADA2280002AF3C3 /* Coverai_TestApp.swift in Sources */,
+				0D11E0A12ADA2454002AF3C3 /* StepsView.swift in Sources */,
+				0DF22D862ADAB0D1002E924F /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E07F2ADA2281002AF3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11E0882ADA2281002AF3C3 /* Coverai_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D11E0892ADA2281002AF3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11E0942ADA2281002AF3C3 /* Coverai_TestUITestsLaunchTests.swift in Sources */,
+				0D11E0922ADA2281002AF3C3 /* Coverai_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D11E0852ADA2281002AF3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D11E0712ADA2280002AF3C3 /* Coverai Test */;
+			targetProxy = 0D11E0842ADA2281002AF3C3 /* PBXContainerItemProxy */;
+		};
+		0D11E08F2ADA2281002AF3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D11E0712ADA2280002AF3C3 /* Coverai Test */;
+			targetProxy = 0D11E08E2ADA2281002AF3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D11E0952ADA2281002AF3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D11E0962ADA2281002AF3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0D11E0982ADA2281002AF3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Coverai Test/Coverai_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coverai Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D11E0992ADA2281002AF3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Coverai Test/Coverai_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coverai Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D11E09B2ADA2281002AF3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coverai Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coverai Test";
+			};
+			name = Debug;
+		};
+		0D11E09C2ADA2281002AF3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coverai Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coverai Test";
+			};
+			name = Release;
+		};
+		0D11E09E2ADA2281002AF3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coverai Test";
+			};
+			name = Debug;
+		};
+		0D11E09F2ADA2281002AF3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCXMST35Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.gcreate.Coverai-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coverai Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D11E06D2ADA2280002AF3C3 /* Build configuration list for PBXProject "Coverai Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D11E0952ADA2281002AF3C3 /* Debug */,
+				0D11E0962ADA2281002AF3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D11E0972ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D11E0982ADA2281002AF3C3 /* Debug */,
+				0D11E0992ADA2281002AF3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D11E09A2ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D11E09B2ADA2281002AF3C3 /* Debug */,
+				0D11E09C2ADA2281002AF3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D11E09D2ADA2281002AF3C3 /* Build configuration list for PBXNativeTarget "Coverai TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D11E09E2ADA2281002AF3C3 /* Debug */,
+				0D11E09F2ADA2281002AF3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D11E06A2ADA2280002AF3C3 /* Project object */;
+}
