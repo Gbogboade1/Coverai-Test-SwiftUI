@@ -11,7 +11,7 @@ import SwiftUI
 struct Coverai_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StepsView()
         }
     }
 }

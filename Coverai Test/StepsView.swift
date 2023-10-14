@@ -28,10 +28,16 @@ struct StepsView: View {
                         i in
                         HStack(alignment: .center, spacing: 21) {
                             
-                           if(i==0) {Text("Step \(i+1)")
+                           if(i==0) {
+                               Text("Step ")
                               .font(Font.custom("Phantom Sans", size: 18))
                               .multilineTextAlignment(.center)
                               .foregroundColor(Color(red: 0.6, green: 0.64, blue: 0.7))
+                               Text("\(i+1)")
+                              .font(Font.custom("Phantom Sans", size: 18))
+                              .fontWeight(.bold)
+                              .multilineTextAlignment(.center)
+                              .foregroundColor(Color(red: 0.48, green: 0.35, blue: 0.97))
                             }else{
                                 Text("\(i+1)")
                               .font(Font.custom("Phantom Sans", size: 18))
@@ -51,6 +57,8 @@ struct StepsView: View {
                 Text("Take picture of your  Vehicle's front view, ensuring it fills about 80% of your camera screen")
                 
                 Text("Front View")
+                    .font(.headline)
+                    .fontWeight(.medium)
                 
             Image("1")
                     .resizable()
